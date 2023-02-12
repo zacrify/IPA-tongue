@@ -63,15 +63,16 @@ img {
 
 .vowel {
     position: absolute;
+    /* border:1px solid black; */
 }
 
-#i {
+#iː {
     top: 43%;
     left: 25%;
 }
 
-#ɑ {
-    top: 60%;
+#ɑː {
+    top: 61%;
     left: 63%;
 }
 
@@ -80,9 +81,14 @@ img {
     left: 60%;
 }
 
-#ɔ {
+#ɔː {
     top: 55%;
     left: 68%;
+}
+
+#ɒ {
+    top: 61%;
+    left: 68%;    
 }
 
 #ɪə {
@@ -91,26 +97,71 @@ img {
 }
 
 #eɪ {
-    top: 55%;
-    left: 35%;
+    top: 49%;
+    left: 31%;
 }
 
 #aʊ {
-    top: 60%;
+    top: 61%;
     left: 42%;
 }
 
-#eʊ {
-    top: 55%;
-    left: 32.5%;
+#əʊ {
+    top: 52%;
+    left: 49%;
 }
 
 #ʌɪ {
     top: 55%;
-    left: 62%;
+    left: 61.5%;
 }
 
 #ɔɪ {
     top: 55%;
     left: 70.5%;
+}
+
+#ʊə {
+    top: 46%;
+    left: 62.5%;
+}
+
+#ɪ {
+    top: 46%;
+    left: 37.5%;
+}
+
+#ɛ {
+    top: 55%;
+    left: 35%;
+}
+
+#ɛː {
+    top: 55%;
+    left: 37.5%;   
+}
+
+#a {
+    top: 61%;
+    left: 44.5%;
+}
+
+#uː {
+    top: 43%;
+    left: 68%;
+}
+
+#ə {
+    top: 52%;
+    left: 51.5%;
+}
+
+#əː {
+    top: 52%;
+    left: 54%;
+}
+
+#ʌ {
+    top: 55%;
+    left: 64%;
 }
