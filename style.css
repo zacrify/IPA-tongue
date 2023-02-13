@@ -6,10 +6,15 @@
     height: 300px;
     position: relative;
 } */
-#vowel-sound {
+#vowel-sound, #consonants-sound  {
     position: relative;
     width: 80vw;
 }
+
+/* {
+    position: relative;
+    width: 80vw;
+} */
 
 img {
     border: 1px solid #ddd;
@@ -61,7 +66,23 @@ img {
 
 }
 
-.vowel {
+.bilabial {
+    background-color: red;
+}
+
+.labio-dental {
+    background-color: orangered;
+}
+
+.dental {
+    background-color: orange;
+}
+
+.alveolar {
+    background-color: green;
+}
+
+.vowel, .consonant{
     position: absolute;
     /* border:1px solid black; */
 }
@@ -164,4 +185,34 @@ img {
 #ʌ {
     top: 55%;
     left: 64%;
+}
+
+#f {
+    top: 56%;
+    left: 26.5%;
+}
+
+#v {
+    top: 53%;
+    left: 26.5%;
+}
+
+#θ {
+    top: 56%;
+    left: 31%;
+}
+
+#ð {
+    top: 53%;
+    left: 31%;
+}
+
+#s {
+    top: 47%;
+    left: 37%;
+}
+
+#z {
+    top: 44.5%;
+    left: 37%;
 }
