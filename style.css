@@ -82,6 +82,22 @@ img {
     background-color: green;
 }
 
+.post-alveolar {
+    background-color: teal;
+}
+
+.palatal {
+    background-color: darkgreen;
+}
+
+.velar {
+    background-color: darkmagenta;
+}
+
+.glottal {
+    background-color: black;
+}
+
 .vowel, .consonant{
     position: absolute;
     /* border:1px solid black; */
@@ -188,31 +204,138 @@ img {
 }
 
 #f {
-    top: 56%;
+    top: 53%;
     left: 26.5%;
 }
 
 #v {
-    top: 53%;
+    top: 56%;
     left: 26.5%;
 }
 
 #θ {
-    top: 56%;
-    left: 31%;
-}
-
-#ð {
     top: 53%;
     left: 31%;
 }
 
+#ð {
+    top: 56%;
+    left: 31%;
+}
+
 #s {
-    top: 47%;
+    top: 44.5%;
     left: 37%;
 }
 
 #z {
-    top: 44.5%;
+    top: 47%;
     left: 37%;
+}
+
+#ʃ {
+    top: 42%;
+    left: 42%;
+}
+
+#ʒ {
+    top: 44.5%;
+    left: 42%;
+}
+
+
+
+#p {
+    top: 53%;
+    left: 22%;
+}
+
+#b {
+    top: 56%;
+    left: 22%;
+}
+
+#t {
+    top: 46%;
+    left: 34.5%;
+}
+
+#d {
+    top: 48.5%;
+    left: 34.5%;
+}
+
+#k {
+    top: 44%;
+    left: 80%;
+}
+
+#ɡ {
+    top: 47%;
+    left: 80%;
+}
+
+#t̠ʃ {
+    top: 42%;
+    left: 39.5%;
+}
+#d̠ʒ {
+    top: 44.5%;
+    left: 39.5%;
+}
+
+#w {
+    top: 53%;
+    left: 19%;
+}
+
+#r {
+    top: 47%;
+    left: 40%;
+}
+
+#l {
+    top: 49.5%;
+    left: 40%;
+}
+
+#ɫ {
+    top: 52%;
+    left: 40%;
+}
+
+#j {
+    top: 33%;
+    left: 60%;
+}
+
+
+#m {
+    top: 56%;
+    left: 19%;
+}
+#n {
+    top: 50%;
+    left: 37.5%;
+}
+
+#ŋ {
+    top: 45%;
+    left: 82.5%;
+}
+
+#h {
+    top: 83%;
+    left: 87%;
+}
+
+#ʔ {
+    top: 83%;
+    left: 84.5%;
+}
+
+#voice-sound {
+    top: 50%;
+    left: 55%;
+    position: absolute;
 }
