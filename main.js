@@ -9,7 +9,7 @@ function stopAllAudio(){
 		audio.load();
 	});
 }
-
+let zcounter = 1;
 function play(element){
     stopAllAudio();
     var audio = document.getElementById(element);
@@ -21,4 +21,8 @@ function play(element){
     } else {
         voice.innerHTML = '<h1>VoiceLESS</h1>'
     }
+    console.log(newArray[0]);
+    var selectButton = document.getElementById(newArray[0]);
+    selectButton.style.zIndex = ++zcounter;
+    // setTimeout(selectButton.style.zIndex = 0, 2000);
 }
