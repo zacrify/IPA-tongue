@@ -4,6 +4,12 @@ var allAudios = document.querySelectorAll('audio');
 let voice = document.getElementById('voice-sound');
 // voice1.innerHTML = '<h1>Voice</h1>';
 
+if ('addEventListener' in document) {
+	document.addEventListener('DOMContentLoaded', function() {
+		FastClick.attach(document.body);
+	}, false);
+}
+
 function stopAllAudio(){
 	allAudios.forEach(function(audio){
 		audio.load();
